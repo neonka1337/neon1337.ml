@@ -1,0 +1,229 @@
+body {
+  background: #010A13;
+}
+
+#player {
+    object-fit: inherit;
+    position: fixed;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.madeBy {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  margin-bottom: 69px;
+  text-align: center;
+  color: #fff;
+  font-family: Helvetica;
+  font-size: 9px;
+  letter-spacing: 2px;
+}
+
+
+
+
+body {
+  font-size: 20px;
+  font-family: 'Rajdhani', sans-serif;
+  background: #010A13;
+}
+
+.madeBy {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  margin-bottom: 69px;
+  text-align: center;
+  color: #fff;
+  font-family: Helvetica;
+  font-size: 9px;
+  letter-spacing: 2px;
+}
+
+/*//////////////////////////////////////////////////////*/
+
+a {
+  text-decoration: none;
+}
+
+.container {
+
+  text-align: center;
+}
+.containerzwei {
+
+  margin-top: 350px;
+  text-align: center;
+}
+
+.killFeed {
+  margin-top: 15px;
+  min-width: 100px;
+  position: relative;
+  display: inline-block;
+  height: 40px;
+  background: rgba(0,0,0,0.5);
+  border: 2px #B50000 solid;
+  border-radius: 6px;
+  padding: 0 10px;
+  transform: scale(1);
+  transition: .1s;
+}
+
+.killFeed:hover {
+  transform: scale(1.01);
+  box-shadow: 0 0 10px rgba(111, 0, 0, 0.5);
+}
+
+.killer {
+  color: #ECCE51;
+  line-height: 40px;
+  display: inline-block;
+  margin-right: 10px;
+  float: left;
+}
+
+.weapon {
+  float: left;
+}
+
+.weapon.ak47 {
+  margin-top: 8px;
+  height: 25px;
+  width: 80px;
+  background: url(http://i.imgur.com/fZlAs4p.png) no-repeat;
+  background-size: cover;
+  float: left;
+}
+
+.weapon.usp {
+  margin-top: 8px;
+  height: 25px;
+  width: 80px;
+  background: url(http://i.imgur.com/dT1EGjU.png) no-repeat;
+  background-size: cover;
+  float: left;
+}
+
+
+.weapon.awp {
+  margin-top: 8px;
+  height: 25px;
+  width: 80px;
+  background: url("http://i.imgur.com/i5Euh7o.png") no-repeat;
+  background-size: cover;
+  float: left;
+}
+
+.headshot.true {
+  margin: 8px 0px 0px 10px;
+  height: 22px;
+  width: 22px;
+  background-image: url(http://csgo-mates.com/img/headshot-black.png)
+  background-size: cover;
+  float: left;
+}
+
+.wallbang {
+  float: left;
+}
+
+.wallbang.true {
+  margin: 8px 0px 0px 10px;
+  height: 22px;
+  width: 22px;
+  background: url(http://i.imgur.com/FmmFb28.png);
+  background-size: cover;
+  float: left;
+}
+
+.headshot {
+  float: left;
+}
+
+.killed {
+  margin-left: 10px;
+  color: #71A6FF;
+  line-height: 40px;
+  display: inline-block;
+  float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box
+{
+  position: absolute;
+  top: calc(20% - 85px); 
+  left: calc(50% - 412px);
+  width: 825px; 
+  height: 170px;
+  -webkit-transform: skew(-15deg);
+          transform: skew(-15deg);
+  
+  background: rgba(0,0,0,.6);
+  
+  -webkit-transition: all 300ms ease;
+  
+  transition: all 300ms ease;
+}
+
+.name
+{
+  position: relative;
+  display: block;
+  top: 50%;
+  -webkit-transform: skew(15deg) translateY(-50%);
+          transform: skew(15deg) translateY(-50%);
+  
+  font-size: 4em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #FFF;
+}
+
+.button
+{
+  position: absolute;
+  width: 275px;
+  height: 40px;
+  bottom: -35%;
+  left: calc(54% - 137px);
+  -webkit-transform: skew(15deg);
+          transform: skew(15deg);
+  
+  text-align: center;
+  line-height: 40px;
+  font-size: 1.6em;
+  font-weight: 500;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-smoothing: antialiased;
+  color: black;
+  background: rgba(255,255,255,.75);
+}
