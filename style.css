@@ -170,15 +170,6 @@ a {
   float: left;
 }
 
-.weapon.scar20 {
-  margin-top: 8px;
-  height: 25px;
-  width: 80px;
-  background: url("IDE KELL SCAR20 LINK") no-repeat;
-  background-size: cover;
-  float: left;
-}
-
 .headshot.true {
   margin: 8px 0px 0px 10px;
   height: 22px;
