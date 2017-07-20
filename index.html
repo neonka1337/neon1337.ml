@@ -67,7 +67,7 @@
         <script>
 var video = document.getElementById('player');
 video.volume = 0.9;
-document.addEventListener('contextmenu', event => event.preventDefault());
+document.oncontextmenu = document.body.oncontextmenu = function() {return false;}
    </script>
   
   
