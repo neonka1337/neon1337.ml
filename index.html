@@ -68,7 +68,55 @@
 var video = document.getElementById('player');
 video.volume = 0.9;
 document.addEventListener('contextmenu', event => event.preventDefault());
-        </script>
+<style> 
+.page_dimmer 
+{ 
+position:fixed; 
+height:100%; 
+width:100%; 
+top:0px; 
+left:0px; 
+background-color:#000000; 
+filter:alpha(opacity=50); 
+-moz-opacity:.50; 
+opacity:.50; 
+z-index:50; 
+} 
+
+
+.msg_box_container 
+{ 
+position:fixed; 
+background-color:#888888; 
+border:1px solid #999999; 
+z-index:50; 
+left:20%; 
+right:20%; 
+top:20%;" 
+} 
+
+</style> 
+
+<div class="page_dimmer" id="pagedimmer"> </div> 
+<div class="msg_box_container" id="msgbox"> 
+<table width="100%"> 
+<tr> 
+<td colspan="2">[neon1337.ml]</td> 
+</tr> 
+<tr> 
+<td>[ICON]</td> 
+<td>[lmao]</td> 
+</tr> 
+<tr> 
+<td colspan="2"><input type="Button" value="OK" 
+
+   onClick="document.getElementById('pagedimmer').style.visibility = 'hidden'; 
+          document.getElementById('msgbox').style.visibility = 'hidden'"></td> 
+</tr> 
+</table> 
+</div>   
+   </script>
+  
 
 </body>
 </html>
